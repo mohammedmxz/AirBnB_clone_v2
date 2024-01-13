@@ -9,7 +9,6 @@ env.hosts = ["34.73.0.174", "35.196.78.105"]
 """The list of host server IP addresses."""
 
 
-
 @runs_once
 def do_pack():
     """Archives the static files."""
