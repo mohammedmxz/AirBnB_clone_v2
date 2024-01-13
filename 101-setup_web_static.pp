@@ -1,5 +1,6 @@
 #!/usr/bin/puppet apply
 # AirBnB clone web server setup and configuration
+
 exec { 'apt-get-update':
   command => '/usr/bin/apt-get update',
   path    => '/usr/bin:/usr/sbin:/bin',
